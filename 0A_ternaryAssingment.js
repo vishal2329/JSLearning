@@ -9,12 +9,11 @@ var num1 = 800;
 var num2 = 899;
 
 function greaterNumber(num1, num2){
-    var result = (10 > -10) ? `Greatest Number is 10` : "Greatest Number is -10";
-    console.log(result);
-    var resultShow = (800 > 899) ? `Greatest Number is 800` : `Greatest number is 899`;
-    console.log(resultShow);
+var result = (num1 > num2) ? num1 : num2;
+console.log(`Greater number amongst ${num1}, ${num2} is : ${result}`);
 }
-greaterNumber(10, -10, 800, 899);
+greaterNumber(10, -10,);
+greaterNumber(800, 899);
 
 console.log("======== Step 2. Check Even or Odd numbers ==========")
 
@@ -39,7 +38,7 @@ function wordLength(word){
  var result = wordLength("JavaScript");
  console.log(`Word "JavaScript" has ${result} length` );
  var result = wordLength("developer");
- console.log(`Word "developer" has ${wordLength("developer")} length`);
+ console.log(`Word "developer" has ${result}} length`);
  var result = wordLength("Google");
  console.log(`Word "Google" has ${wordLength("Google")} length` );
 
@@ -48,15 +47,4 @@ function wordLength(word){
 
 
 
-
-
-// function isEvenOrOddNum(args1) {
-//     var result;
-//     result = args1 %2 ==0? "True" : "False";
-//   console.log(`The ${args1} number is even: ${result}`);
-
-// } isEvenOrOddNum(29);
-// isEvenOrOddNum(44);
-// isEvenOrOddNum(0);
-// isEvenOrOddNum(101);
 

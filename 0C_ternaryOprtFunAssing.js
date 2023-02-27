@@ -1,4 +1,4 @@
-//  Fun Argument with no retrun value:
+//  Fun With Argument and no retrun value:
 console.log("======== Assingment 0C ========")
 
 function tcsEligibility(gradScore, hscScore, sscScore, candidateName){
@@ -8,5 +8,4 @@ function tcsEligibility(gradScore, hscScore, sscScore, candidateName){
 tcsEligibility(80, 86, 90, "Vishal");
 tcsEligibility(70, 65, 55, "Akash");
 tcsEligibility(60, 79, 88, "Shital");
-
 

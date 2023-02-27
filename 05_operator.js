@@ -34,7 +34,7 @@ var num3 = 10;
 console.log(num3==10);
 console.log(num3==12);
 
-console.log(`Caparison operators `);
+console.log(`Camparison operators `);
 var num3 = "10";
 var num4 = 10;
 console.log(num3==num4); // 10==10 inside this doing autoconvert to the string

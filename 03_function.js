@@ -27,8 +27,8 @@ console.log(fname);
 
 // Function with Argument and return value
 function sumOfNumber(num1, num2, num3){
-var sum = num1 + num2 + num3;
-return sum;
+    var sum = num1 + num2 + num3;
+    return sum;
 }
 var sumResult = sumOfNumber(10, 25, 45.20);
 console.log(sumResult);
@@ -62,5 +62,18 @@ var swapResult = swapVariables(num1, num2);  //Function Call or function invoke
 console.log(swapResult);
 
 
-var name1= "Vishal";
-var name2 = "Sagar";
+var name1= "Vishal"; //value1
+var name2 = "Sagar"; //value2
+
+function deatils(value1, value2){
+    console.log("Before Swapping:", value1, value2);
+    var temp = value2;
+    value2 = value1;
+    value1 = temp;
+    console.log("After Swapping:", value1, value2);
+    return "Swapping is completed";
+}
+var result = deatils(name1, name2);
+console.log(result);
+
+

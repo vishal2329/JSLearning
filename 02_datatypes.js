@@ -1,12 +1,12 @@
 var myName = 'Virat Kohli';
-var fatherName = "Yogesh Kohli"
-var birthPlace = "Mumbai";
+var fatherName = "Yogesh Kohli"  //This is String type value
+var birthPlace = " Mumbai";
 
 var age = 31;
-var weight = 82.5;
+var weight = 82.5;   // This is Number type of value
 
 var isMarried = true;
-var isLazy = false; 
+var isLazy = false;   // This is Boolean type of value
 
 var typeOfMyName  = typeof myName;
 console.log("Typeof variable myName: ",  typeOfMyName);
@@ -37,3 +37,8 @@ console.log("typeOf graduation is: ", graduation);
 var city = null;
 console.log("value of city variable is:", city);
 console.log("type city is:", typeof city);
+
+var city = "pune";
+console.log("value of city is:", city);
+console.log("typeof variable:", typeOf );
+
