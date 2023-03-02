@@ -1,7 +1,7 @@
 function gradeCalculation(marks){
     // if marks is 0 or less than 0 or greater than 100 or not in valid number format 
     // ex. “56” or “Seventy” then log the msg→ Please provide the valid marks
-    if(marks<=0 || marks > 100 || (typeof marks!= "number")){
+    if(marks<=0 || marks > 100 || (typeof marks!= "number") || isNaN(marks)){
         console.log(`Please provide the valid marks - ${marks}`);
     }
     
