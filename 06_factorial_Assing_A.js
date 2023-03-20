@@ -1,4 +1,4 @@
-console.log("======== Assignmets A [Factorial of a Number] ========")
+console.log("======== Assignmets A [Factorial of a Number By using Normal Function] ========")
 
 function factorialOfNum(value){
     let factorial = 1;
@@ -10,7 +10,7 @@ function factorialOfNum(value){
     }
     return factorial;
 }
- var result = factorialOfNum(5);
+ var result = factorialOfNum(5);   //5*4*3*2*1 = 120 is a factorial of 5
  console.log(`The Given Number is 5 And factorial is:- '${result}'`);
  var result = factorialOfNum(3);
  console.log(`The Given Number is 3 And factorial is:- '${result}'`);
